@@ -30,7 +30,7 @@ body {
   
   p {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .gradient span {
@@ -120,7 +120,71 @@ body {
       rgba(255, 0, 255, 0) 41%
     );
   }
+
+  .card {
+    background-color: #eaeff6;
+  }
+
+  .col-md-4 {
+    padding-left:150px;
+  }
+
+  #aboutgrants {
+    width:75%;
+    padding:20px;
+    align-content: center;
+  }
   
+  .circle {
+    width: 200px;
+    height: 200px;
+    background: #eaeff6;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    background: #eaeff6;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+  }
+
+  .flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .researchmethods {
+    padding: 20px;
+  }
+  
+  .methodIcon {
+    width: 200px;
+    padding: 50px;
+  }
+  
+  .method1,
+  .method2,
+  .method3 {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  }
+  
+  .methodName {
+    text-align: justify;
+  }
+  
+  .methodText {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
   .footer {
     background-color: #06a893;
     width: 100%;
