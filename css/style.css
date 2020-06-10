@@ -1,0 +1,147 @@
+body {
+    font-family: "Archivo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #4d5b65;
+  }
+  
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 45px;
+    color: black;
+  }
+  
+  h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 40px;
+    color: black;
+  }
+  
+  h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 36px;
+    color: black;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  
+  .gradient span {
+    background: linear-gradient(
+      0deg,
+      rgba(255, 0, 255, 0) 0%,
+      rgba(255, 0, 255, 0) 16%,
+      rgba(6, 168, 147, 1) 16%,
+      rgba(6, 168, 147, 1) 41%,
+      rgba(255, 0, 255, 0) 41%
+    );
+  }
+  
+  .padding span {
+    padding: 0 0.5em 0 0.1em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #06a893;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 5px;
+    float: left;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #eaeff6;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .logo {
+    width: 75px;
+  }
+  
+  .tabs {
+    padding: 5px;
+    padding-right: 50px;
+    text-decoration: none;
+  }
+  
+  .tabs a,
+  h1 {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .tabs:visited {
+    color: black;
+  }
+  
+  #home {
+    display:none;
+  }
+  
+  #about:hover,
+  #work:hover,
+  #contact:hover {
+    background: linear-gradient(
+      0deg,
+      rgba(255, 0, 255, 0) 0%,
+      rgba(255, 0, 255, 0) 16%,
+      rgba(234, 239, 246, 1) 16%,
+      rgba(234, 239, 246, 1) 41%,
+      rgba(255, 0, 255, 0) 41%
+    );
+  }
+  
+  .footer {
+    background-color: #06a893;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  
+  .footerText {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .social_media_icons {
+    height: 45px;
+    padding-left: 20px;
+  }
+  
+  #copyright {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+  }
