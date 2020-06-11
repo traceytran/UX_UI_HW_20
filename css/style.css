@@ -8,28 +8,28 @@ body {
     font-family: "Archivo", sans-serif;
     font-size: 50px;
     font-weight: bold;
-    margin:20px;
+    margin:15px;
   }
   
   h2 {
     font-family: "Archivo", sans-serif;
     font-size: 45px;
     color: black;
-    margin:20px;
+    margin:15px;
   }
   
   h3 {
     font-family: "Archivo", sans-serif;
     font-size: 40px;
     color: black;
-    margin:20px;
+    margin:15px;
   }
   
   h4 {
     font-family: "Archivo", sans-serif;
     font-size: 36px;
     color: black;
-    margin:20px;
+    margin:15px;
   }
   
   p {
@@ -48,8 +48,8 @@ body {
       0deg,
       rgba(255, 0, 255, 0) 0%,
       rgba(255, 0, 255, 0) 16%,
-      rgba(6, 168, 147, 1) 16%,
-      rgba(6, 168, 147, 1) 41%,
+      rgba(100, 104, 216, 1) 16%,
+      rgba(100, 104, 216, 1) 41%,
       rgba(255, 0, 255, 0) 41%
     );
   }
@@ -137,12 +137,41 @@ body {
     );
   }
 
-  .jumbotron {
-  text-align: center;
+  .btn-primary {
+    background-color: #2298ff;
+    font-weight: bold;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    top:50%;
+    bottom:50%;
+    border: none;
+
   }
 
-  .mb-3 {
-    background-color: #eaeff6;
+  .btn-primary:hover {
+    color: white;
+    background-position: 100% 0;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background-image: linear-gradient(
+      to right,
+      #04685b,
+      #299887,
+      #3eb3a0,
+      #5eddc6
+    );
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  }
+
+  .jumbotron {
+  background-image: url(../images/grantsgovjumbotron.png);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  height:350px;
   }
 
 
@@ -194,24 +223,18 @@ body {
     width: 300px;
   }
 
-  .subtitle {
-    margin:20px;
-  }
-
-  .definition {
-    margin: auto;
-    padding-bottom:50px;
-  }
-
-  .style {
-    margin:0 auto;
+  .aboutGrants, .mb-3 {
     background-color: #eaeff6;
   }
 
-  .card-img-top .styleGuide {
-    background-color: #eaeff6;
-    margin-left: 0 auto;
-    
+  .definition, .prototype, .styleGuide {
+    margin: 0 auto;
+    padding-top:25px;
+    padding-bottom:25px;
+  }
+
+  .prototype.hifi.list-group.list-group-flush {
+    padding-bottom:30px;
   }
 
   .col-md-4.col-sm-12.ideation {
@@ -219,13 +242,15 @@ body {
   }
 
   .styleGuide {
-    margin: auto;
-    padding-bottom:50px;
+    background-color: #eaeff6;
+  }
+
+  .card.styleGuide {
+    background-color:white;
   }
 
   .footer {
     background-color: #06a893;
-    width: 100%;
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -246,4 +271,19 @@ body {
     color: #000000;
     text-align: center;
     margin-bottom: 15px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .flexContainer {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bodyText {
+      padding: 0px;
+    }
+
+    .definition, .prototype, .styleGuide {
+      width:100%;
+    }
   }
