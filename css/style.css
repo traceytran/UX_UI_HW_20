@@ -8,29 +8,39 @@ body {
     font-family: "Archivo", sans-serif;
     font-size: 50px;
     font-weight: bold;
+    margin:20px;
   }
   
   h2 {
     font-family: "Archivo", sans-serif;
     font-size: 45px;
     color: black;
+    margin:20px;
   }
   
   h3 {
     font-family: "Archivo", sans-serif;
     font-size: 40px;
     color: black;
+    margin:20px;
   }
   
   h4 {
     font-family: "Archivo", sans-serif;
     font-size: 36px;
     color: black;
+    margin:20px;
   }
   
   p {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    padding:10px;
+  }
+
+  .bodyText {
+    padding-left:150px;
+    padding-right:150px;
   }
   
   .gradient span {
@@ -103,6 +113,12 @@ body {
   .tabs:visited {
     color: black;
   }
+
+  a:hover {
+    color:#06a893;
+    text-decoration: none;
+    font-weight: bold;
+  }
   
   #home {
     display:none;
@@ -121,29 +137,26 @@ body {
     );
   }
 
-  .card {
+  .jumbotron {
+  text-align: center;
+  }
+
+  .mb-3 {
     background-color: #eaeff6;
   }
 
-  .col-md-4 {
-    padding-left:150px;
-  }
 
   #aboutgrants {
-    width:75%;
-    padding:20px;
+    width:50%;
+    padding:10px;
+    margin-left:100px;
+    align-content: center;
+  }
+
+  .researchMethods {
     align-content: center;
   }
   
-  .circle {
-    width: 200px;
-    height: 200px;
-    background: #eaeff6;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-  }
-
   .circle {
     width: 200px;
     height: 200px;
@@ -157,10 +170,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .researchmethods {
-    padding: 20px;
   }
   
   .methodIcon {
@@ -183,6 +192,35 @@ body {
     display: flex;
     justify-content: space-between;
     width: 300px;
+  }
+
+  .subtitle {
+    margin:20px;
+  }
+
+  .definition {
+    margin: auto;
+    padding-bottom:50px;
+  }
+
+  .style {
+    margin:0 auto;
+    background-color: #eaeff6;
+  }
+
+  .card-img-top .styleGuide {
+    background-color: #eaeff6;
+    margin-left: 0 auto;
+    
+  }
+
+  .col-md-4.col-sm-12.ideation {
+    width:50%;
+  }
+
+  .styleGuide {
+    margin: auto;
+    padding-bottom:50px;
   }
 
   .footer {
